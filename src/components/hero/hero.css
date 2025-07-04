@@ -1,0 +1,19 @@
+
+.hero img{
+   height: 550px;
+}
+
+.hero h5{
+    color: white;
+    font-size:45px;
+}
+
+.hero p{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+}
+
+.hero h3{
+    color: red;
+    font-size: 55px;
+}

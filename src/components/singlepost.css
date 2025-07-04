@@ -1,0 +1,105 @@
+/* Full Screen Center Layout */
+.single-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f2f5, #dfe6e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card Structure */
+.single-card {
+    background: #fff;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Image Section */
+.single-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.single-image img {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+}
+
+/* Product Details */
+.single-details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.single-details h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.desc {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+.category,
+.price {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.category span,
+.price span {
+    font-weight: bold;
+    color: #111;
+}
+
+/* Button Styling */
+.add-btn {
+    padding: 12px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    max-width: 200px;
+}
+
+.add-btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .single-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .single-image {
+        width: 100%;
+    }
+
+    .single-details {
+        align-items: center;
+    }
+}

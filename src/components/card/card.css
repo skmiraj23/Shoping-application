@@ -1,0 +1,48 @@
+.card{
+    height:410px !important;
+    width: 20% !important;
+    margin-top: 16px;
+    border: none !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    background-color: rgb(240, 236, 236) !important;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 18px;
+    transition: transform .2s;
+
+    &:hover{
+        transform: scale(1.04);
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+         rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+}
+
+.card .main-img{
+    border-radius: 25px;
+    height: 260px;
+    width: 270px;
+    border-radius: 10px;
+    filter: drop-shadow(6px 8px 4px black);
+}
+
+.brand{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.brand .b-logo{
+    height: 40px;
+    width: 70px;
+}
+
+.card h3 {
+ margin-top: 9px;
+ color: #FB2E86;
+}
+.card h5{
+    margin-top: 9px;
+}

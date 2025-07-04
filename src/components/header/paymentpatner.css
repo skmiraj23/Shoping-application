@@ -1,0 +1,19 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    
+  }
+  
+  .slider-container img {
+    width: 130px;
+    height: auto;
+    margin: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-container img:hover {
+    transform: scale(1.6);
+  }
+  
